@@ -16,7 +16,7 @@ function mouseUp() {
 
 // manière avec simple clic sur la checkbox 
 
-/*document.getElementById('checkbox').addEventListener('click', function() {
+/* document.getElementById('checkbox').addEventListener('click', function() {
      if(checkbox.checked){
      input.type = 'text';
      display.innerHTML = 'Hide';
@@ -25,4 +25,4 @@ function mouseUp() {
      input.type = 'password';
      display.innerHTML = 'Show';
      }
-     })*/
+     }) */
