@@ -19,3 +19,6 @@ input.addEventListener("keyup", function(event) {
     text.innerHTML = '⚠️ Caps lock is activated...';
   }
 });
+
+let x = 100 % 2;
+console.log(x);
