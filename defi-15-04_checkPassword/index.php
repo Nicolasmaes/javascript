@@ -13,9 +13,9 @@
             <label for="login">Login: </label>
             <input type="text" name="login"><br>
             <label for="password">Password: </label>
-            <input type="text" name="password" id="password"><br>
+            <input type="password" name="password" id="password"><br>
             <label for="check-password">Re-enter your password: </label>
-            <input type="text" name="check-password" id="check-password">
+            <input type="password" name="check-password" id="check-password">
             <span id="alert"></span><br>
             <input type="button" value="Send">
         </fieldset>
