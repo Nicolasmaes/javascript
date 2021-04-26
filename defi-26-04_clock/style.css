@@ -1,0 +1,70 @@
+@import url('http://fonts.cdnfonts.com/css/digital-7-mono');
+
+body{
+font-family: 'digital-7 Mono';
+font-size: 3em;
+background: linear-gradient(teal, rgb(204, 187, 109));
+}
+#digital-clock{
+display:flex;
+justify-content: center;
+align-items: center;
+height:98vh;
+flex-direction: column;
+color: white;
+}
+#digital-clock__time{
+    letter-spacing: 0.4rem;
+}
+#analog-clock{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height:310px;
+    width:310px;
+    background: radial-gradient(rgb(204, 187, 109),teal);
+    border-radius: 50%;
+}
+#analog-clock__hours, #analog-clock__minutes, #analog-clock__seconds,#analog-clock__dot{
+    position: absolute;
+    margin: auto;
+    bottom:0;
+    transform-origin: bottom center;
+}
+#analog-clock__hours{
+    height:112px;
+    width:8px;
+    top:-112px;
+    margin-left:2px;
+    transform: rotate(0deg);
+    background-color:black;
+    z-index:1;
+}
+#analog-clock__minutes{
+    height:136px;
+    width:4px;
+    top:-136px;
+    margin-left:4px;
+    transform: rotate(90deg);
+    background-color:black;
+    z-index:2;
+}
+#analog-clock__seconds{
+    height:152px;
+    width:2px;
+    top:-152px;
+    margin-left:5px;
+    transform: rotate(180deg);
+    background-color:orange;
+    z-index:3;
+}
+#analog-clock__dot{
+    background-color: silver;
+    height:12px;
+    width:12px;
+    border-radius:12px;
+    top:0;
+    z-index:4;
+}
