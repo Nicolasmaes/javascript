@@ -1,7 +1,13 @@
+body {
+background: linear-gradient(white,teal);
+background-repeat: no-repeat;
+height: 300px;
+}    
 #chart div{
-    width: 8px;
-    background-color: teal;
+    width: 15px;
+    background: linear-gradient(red,blue);
     margin:2px;
+    border-radius: 5px;
 }
 #chart{
     display: flex;
