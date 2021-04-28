@@ -1,0 +1,15 @@
+*{
+    font-family: Helvetica;
+}
+body{
+    height: 900px;
+    background: linear-gradient(#f69f1b, hsl(332, 71%, 49%));
+    color:#0e276d;
+}
+div{
+    margin-top: 15%;
+    text-align: center;
+}
+p{
+    border: 1px solid #0e276d;
+}
