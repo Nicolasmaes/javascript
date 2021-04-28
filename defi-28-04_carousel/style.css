@@ -1,0 +1,22 @@
+#carrousel{
+    margin:20px auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 50px;
+    height: 50vh;
+    width: 50vw;
+    background-color: cornflowerblue; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 48px;
+    font-family: Helvetica;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+button{
+    margin: 15px;
+}

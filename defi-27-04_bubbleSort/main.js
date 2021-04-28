@@ -22,7 +22,10 @@ function draw() {
 function bubbleSort () {
     for(let i = 0; i < array.length; i++){
         for(let j = 0; j < ( array.length - i -1 ); j++){
+            // Checking if the item at present iteration 
+            // is greater than the next iteration
             if(array[j] > array[j+1]){
+            // If the condition is true then swap them
             let temp = array[j];
             array[j] = array[j + 1];
             array[j+1] = temp;
@@ -31,5 +34,5 @@ function bubbleSort () {
         }
         }
     }
-    
+
 bubbleSort();
