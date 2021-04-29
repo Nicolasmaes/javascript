@@ -23,6 +23,6 @@
         <li><p id="p8"></p></li>
         </ol>
     </div>
-        <script src='main.js' async></script>
+        <script src='proto.js' async></script>
     </body>
 </html>

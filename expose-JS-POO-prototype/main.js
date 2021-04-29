@@ -50,4 +50,8 @@ test6.innerHTML = thirdBook.pages;
 test7.innerHTML = thirdBook.release;
 test8.innerHTML = firstMag.cover+' and '+firstMag.publishingHouse;
 
-/* console.log(Object.getPrototypeOf(firstBook)); */
+console.log(Object.getPrototypeOf(firstBook));
+
+/* let bookOne = Book.__proto__;
+
+console.log(Book.__proto__); */
