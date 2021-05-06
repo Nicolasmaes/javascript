@@ -15,38 +15,28 @@ function unroll(){
         menu.style.display = 'block';
         counter = 'open';
         console.log(counter);
-        console.log(screen.width);
-/*         cross1.classList.toggle("nico"); */
-        cross1.style.transform = 'rotate(-45deg)';
-        cross1.style.transition = '0.5s';
-        cross1.style.position = 'relative';
-        cross1.style.top = '18px';
-        cross1.style.backgroundColor = '#2c5f8f';
-        cross3.style.backgroundColor = '#c53c3c';
+        cross1.classList.toggle("cross1transform");
+        cross3.classList.toggle("cross2transform");
         cross2.style.display = 'none';
-        cross3.style.transform = 'rotate(45deg)';
-        cross3.style.transition = '0.5s';
-        cross3.style.position = 'relative';
-        cross3.style.bottom = '2px';
-
         }
         
         else{
         menu.style.display = 'none';
         counter = 'closed';
         console.log(counter);
-        console.log(screen.width);
-
         cross1.style.width = '60px';
-        btn.style.backgroundColor = 'none';
-        cross1.style.left = '0';
+        btn.style.backgroundColor ='none';
+        cross1.classList.toggle("cross1transform");
+        cross3.classList.toggle("cross2transform");
+
+/*         cross1.style.left = '0';
         cross1.style.top = '0';
         cross1.classList.toggle("nico");
-        cross1.style.transform = 'rotate(0deg)';
+        cross1.style.transform = 'rotate(0deg)'; */
         cross2.style.display = 'block';
-        cross3.style.transform = 'rotate(0deg)';
+/*         cross3.style.transform = 'rotate(0deg)';
         cross3.style.width = '60px';
-        cross3.style.bottom = '0';
+        cross3.style.bottom = '0'; */
 
 
     }
