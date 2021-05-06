@@ -14,7 +14,7 @@ articles.forEach(function(article){
     article.spanCounter = document.getElementById('counter'+article.htmlId);
     const moreButton = document.getElementById('more'+article.htmlId);
     const lessButton = document.getElementById('less'+article.htmlId);
-    moreButton.addEventListener('click', function(){more(article)});
+c
     lessButton.addEventListener('click', function(){less(article)});
 })
 function total(){
