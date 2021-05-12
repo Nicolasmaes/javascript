@@ -1,0 +1,13 @@
+div{
+    text-align:center;
+    width:200px;
+    margin: 25px auto;
+    background-color: rgb(126, 230, 230);
+    padding: 20px;
+}
+button{
+    margin-top : 5px;
+}
+input::placeholder{
+    text-align: center;
+}
