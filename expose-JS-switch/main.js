@@ -8,7 +8,6 @@ buttonPlus.addEventListener('click',more);
 buttonMinus.addEventListener('click',less);
 
 function more(){
-    let sex = prompt("entrez le sexe de l'enfant");
     counterValue++;
     console.log(counterValue);
     switch(counterValue){

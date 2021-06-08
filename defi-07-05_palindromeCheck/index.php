@@ -8,11 +8,11 @@
     <title>Palindrome Check</title>
 </head>
 <body>
-<div>
-<input type='text' placeholder='entrez un mot' id="totest"></input>
-<button id="submit">est-ce un palindrome ?</button>
-<span id="result"></span>
-</div>
+    <div class='test'>
+        <input type='text' placeholder='entrez un mot' id="totest"></input>
+        <button id="submit">Est-ce un palindrome ?</button>
+        <span id="result"></span>
+    </div>
 <script src="main.js"></script>
 </body>
 </html>

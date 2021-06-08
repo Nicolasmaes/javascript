@@ -1,8 +1,8 @@
-div{
-    text-align:center;
-    width:200px;
+.test{
+    text-align: center;
+    width: 200px;
     margin: 25px auto;
-    background-color: rgb(126, 230, 230);
+    background-color: black;
     padding: 20px;
 }
 button{
@@ -10,4 +10,7 @@ button{
 }
 input::placeholder{
     text-align: center;
+}
+#result{
+    color: white;
 }
