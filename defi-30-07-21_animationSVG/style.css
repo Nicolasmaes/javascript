@@ -1,0 +1,93 @@
+svg{
+    height: 400px;
+}
+#biker{
+    animation: flying 2s linear infinite;
+}
+#earth{
+animation: rotate 1.5s linear infinite;
+}
+#building1{
+animation: passingby 9s linear infinite;
+}
+#building2{
+animation: passingby 10s linear infinite;
+}
+#building3{
+animation: passingby 13s linear infinite;
+}
+#building4{
+    animation: passingby 8s linear infinite;
+}
+#building5{
+    animation: passingby 8s linear infinite;
+}
+#building6{
+    animation: passingby 10s linear infinite;
+}
+#building7{
+    animation: passingby 6s linear infinite;
+}
+
+#cloud_right{
+    animation: passingby 5s linear infinite;
+}
+#cloud_left{
+    animation: passingby 5s linear infinite;
+}
+#cloud_center{
+    animation: passingby 15s linear infinite;
+}
+/*
+#building8{
+    animation: passingby 1s linear infinite;
+}
+#building8{
+    animation: passingby 1s linear infinite;
+} */
+
+@keyframes flying {
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+    25% {
+        transform: translate(25px, 0px);
+    }
+    50% {
+        transform: translate(50px, 0px);
+    }
+    75% {
+        transform: translate(25px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+    
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: bottom center;
+    }
+    50%{
+        transform: rotate(-180deg);
+        transform-origin: bottom center;
+    }
+    100%{
+        transform: rotate(-360deg);
+        transform-origin: bottom center;
+    }
+    
+}
+@keyframes passingby {
+    0%{
+        transform: translate(100%)
+    }
+    50%{
+        transform: translate(0%)
+    }
+    100%{
+        transform: translate(-100%)
+    }
+}
