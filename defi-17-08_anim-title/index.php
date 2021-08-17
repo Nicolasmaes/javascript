@@ -3,14 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loading Animation</title>
+    <title>Animate Title</title>
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <div id="loadingAnimation"></div>
-    <div id="displayContent">
-      <img src="logo_acs.png" alt="logo acs">
+
+    <div class="container">
+      <div class="image-wrapper left"></div>
+      <hr>
+      <h1 id="title">Bonjour !</h1>
+      <div class="image-wrapper right"></div>
     </div>
+
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
